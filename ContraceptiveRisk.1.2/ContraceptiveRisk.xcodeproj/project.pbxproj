@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1236B4741F2986B3001EF319 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236B4731F2986B3001EF319 /* ChartViewController.swift */; };
+		1236B4761F2997AA001EF319 /* GetExcelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1236B4751F2997AA001EF319 /* GetExcelData.swift */; };
+		124ABA341F27EF1200A691EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124ABA331F27EF1200A691EB /* AppDelegate.swift */; };
+		124ABA361F27EF1200A691EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124ABA351F27EF1200A691EB /* ViewController.swift */; };
+		124ABA391F27EF1200A691EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124ABA371F27EF1200A691EB /* Main.storyboard */; };
+		124ABA3B1F27EF1200A691EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124ABA3A1F27EF1200A691EB /* Assets.xcassets */; };
+		124ABA3E1F27EF1200A691EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 124ABA3C1F27EF1200A691EB /* LaunchScreen.storyboard */; };
+		124ABA4E1F29343F00A691EB /* ContraceptiveRiskData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 124ABA4D1F29343F00A691EB /* ContraceptiveRiskData.csv */; };
+		124ABA501F296FB900A691EB /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124ABA4F1F296FB900A691EB /* AboutViewController.swift */; };
+		12A434EF1F2A923D00343DC5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A434EE1F2A923D00343DC5 /* TableViewController.swift */; };
+		2F4ECE6E523B3852233891C0 /* Pods_ContraceptiveRisk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B92721DE178B3807E5E58E /* Pods_ContraceptiveRisk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B4FBFED580F4F78B269EA5 /* Pods-ContraceptiveRisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContraceptiveRisk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContraceptiveRisk/Pods-ContraceptiveRisk.debug.xcconfig"; sourceTree = "<group>"; };
+		1236B4731F2986B3001EF319 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		1236B4751F2997AA001EF319 /* GetExcelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetExcelData.swift; sourceTree = "<group>"; };
+		124ABA301F27EF1200A691EB /* ContraceptiveRisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContraceptiveRisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		124ABA331F27EF1200A691EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		124ABA351F27EF1200A691EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		124ABA381F27EF1200A691EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		124ABA3A1F27EF1200A691EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124ABA3D1F27EF1200A691EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		124ABA3F1F27EF1200A691EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124ABA4D1F29343F00A691EB /* ContraceptiveRiskData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ContraceptiveRiskData.csv; sourceTree = "<group>"; };
+		124ABA4F1F296FB900A691EB /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		12A434EE1F2A923D00343DC5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		74B92721DE178B3807E5E58E /* Pods_ContraceptiveRisk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContraceptiveRisk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F41D921FD207055E1D35E87 /* Pods-ContraceptiveRisk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContraceptiveRisk.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContraceptiveRisk/Pods-ContraceptiveRisk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		124ABA2D1F27EF1200A691EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4ECE6E523B3852233891C0 /* Pods_ContraceptiveRisk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124ABA271F27EF1200A691EB = {
+			isa = PBXGroup;
+			children = (
+				124ABA321F27EF1200A691EB /* ContraceptiveRisk */,
+				124ABA311F27EF1200A691EB /* Products */,
+				B8AD654753579573BEA5A7FB /* Pods */,
+				5EE4746F841599B530A8AC09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		124ABA311F27EF1200A691EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				124ABA301F27EF1200A691EB /* ContraceptiveRisk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124ABA321F27EF1200A691EB /* ContraceptiveRisk */ = {
+			isa = PBXGroup;
+			children = (
+				124ABA371F27EF1200A691EB /* Main.storyboard */,
+				124ABA351F27EF1200A691EB /* ViewController.swift */,
+				1236B4731F2986B3001EF319 /* ChartViewController.swift */,
+				12A434EE1F2A923D00343DC5 /* TableViewController.swift */,
+				124ABA4F1F296FB900A691EB /* AboutViewController.swift */,
+				1236B4751F2997AA001EF319 /* GetExcelData.swift */,
+				124ABA3A1F27EF1200A691EB /* Assets.xcassets */,
+				124ABA3C1F27EF1200A691EB /* LaunchScreen.storyboard */,
+				124ABA331F27EF1200A691EB /* AppDelegate.swift */,
+				124ABA4D1F29343F00A691EB /* ContraceptiveRiskData.csv */,
+				124ABA3F1F27EF1200A691EB /* Info.plist */,
+			);
+			path = ContraceptiveRisk;
+			sourceTree = "<group>";
+		};
+		5EE4746F841599B530A8AC09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74B92721DE178B3807E5E58E /* Pods_ContraceptiveRisk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8AD654753579573BEA5A7FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01B4FBFED580F4F78B269EA5 /* Pods-ContraceptiveRisk.debug.xcconfig */,
+				8F41D921FD207055E1D35E87 /* Pods-ContraceptiveRisk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		124ABA2F1F27EF1200A691EB /* ContraceptiveRisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124ABA421F27EF1200A691EB /* Build configuration list for PBXNativeTarget "ContraceptiveRisk" */;
+			buildPhases = (
+				AE432D65E6A6941C1172C6FD /* [CP] Check Pods Manifest.lock */,
+				124ABA2C1F27EF1200A691EB /* Sources */,
+				124ABA2D1F27EF1200A691EB /* Frameworks */,
+				124ABA2E1F27EF1200A691EB /* Resources */,
+				1B9E887FBE4ACDE3FEE49260 /* [CP] Embed Pods Frameworks */,
+				218BAC3EB200897904A7CC74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContraceptiveRisk;
+			productName = ContraceptiveRisk;
+			productReference = 124ABA301F27EF1200A691EB /* ContraceptiveRisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124ABA281F27EF1200A691EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JHU;
+				TargetAttributes = {
+					124ABA2F1F27EF1200A691EB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F439W9CF4A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 124ABA2B1F27EF1200A691EB /* Build configuration list for PBXProject "ContraceptiveRisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 124ABA271F27EF1200A691EB;
+			productRefGroup = 124ABA311F27EF1200A691EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				124ABA2F1F27EF1200A691EB /* ContraceptiveRisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124ABA2E1F27EF1200A691EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124ABA3E1F27EF1200A691EB /* LaunchScreen.storyboard in Resources */,
+				124ABA3B1F27EF1200A691EB /* Assets.xcassets in Resources */,
+				124ABA4E1F29343F00A691EB /* ContraceptiveRiskData.csv in Resources */,
+				124ABA391F27EF1200A691EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B9E887FBE4ACDE3FEE49260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContraceptiveRisk/Pods-ContraceptiveRisk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		218BAC3EB200897904A7CC74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContraceptiveRisk/Pods-ContraceptiveRisk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE432D65E6A6941C1172C6FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		124ABA2C1F27EF1200A691EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124ABA361F27EF1200A691EB /* ViewController.swift in Sources */,
+				12A434EF1F2A923D00343DC5 /* TableViewController.swift in Sources */,
+				124ABA501F296FB900A691EB /* AboutViewController.swift in Sources */,
+				124ABA341F27EF1200A691EB /* AppDelegate.swift in Sources */,
+				1236B4741F2986B3001EF319 /* ChartViewController.swift in Sources */,
+				1236B4761F2997AA001EF319 /* GetExcelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		124ABA371F27EF1200A691EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124ABA381F27EF1200A691EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		124ABA3C1F27EF1200A691EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				124ABA3D1F27EF1200A691EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		124ABA401F27EF1200A691EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		124ABA411F27EF1200A691EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124ABA431F27EF1200A691EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B4FBFED580F4F78B269EA5 /* Pods-ContraceptiveRisk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F439W9CF4A;
+				INFOPLIST_FILE = ContraceptiveRisk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.tigusa.ContraceptiveRisk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		124ABA441F27EF1200A691EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F41D921FD207055E1D35E87 /* Pods-ContraceptiveRisk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F439W9CF4A;
+				INFOPLIST_FILE = ContraceptiveRisk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.jhu.tigusa.ContraceptiveRisk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124ABA2B1F27EF1200A691EB /* Build configuration list for PBXProject "ContraceptiveRisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124ABA401F27EF1200A691EB /* Debug */,
+				124ABA411F27EF1200A691EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124ABA421F27EF1200A691EB /* Build configuration list for PBXNativeTarget "ContraceptiveRisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124ABA431F27EF1200A691EB /* Debug */,
+				124ABA441F27EF1200A691EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124ABA281F27EF1200A691EB /* Project object */;
+}

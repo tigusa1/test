@@ -1,0 +1,20 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - CSVImporter (1.7.1):
+    - HandySwift (~> 2.0)
+  - HandySwift (2.3.0)
+
+DEPENDENCIES:
+  - Charts (~> 3.0.1)
+  - CSVImporter (~> 1.7)
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  CSVImporter: 9b7fb2a308977137d9a64e7898ec54168c38ce96
+  HandySwift: 341c48b4b469be461625ae5842ddbacdb9df1bcd
+
+PODFILE CHECKSUM: 0edd265fede084daba7fa61d785cd2303f49b729
+
+COCOAPODS: 1.2.1
